@@ -2,9 +2,14 @@
 
 void main()
 {
-	int rows;
+	int rows=0;
 	std::cout << "Enter a number for the diamond\n";
 	std::cin >> rows;
+	if (rows <= 0)
+	{
+		std::cout << "Invalid input";
+		exit(0);
+	}
 	int currow = 1;
 	while (currow <= rows)
 	{
