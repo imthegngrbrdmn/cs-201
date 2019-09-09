@@ -23,4 +23,22 @@ void main()
 		std::cout << "\n";
 		currow++;
 	}
+	currow-=2;
+	while (currow>0)
+	{
+		for (int i = currow; i < rows; i++)
+		{
+			std::cout << " ";
+		}
+		for (int i = 1; i < 2 * currow; i++)
+		{
+			std::cout << "#";
+		}
+		for (int i = currow; i < rows; i++)
+		{
+			std::cout << " ";
+		}
+		std::cout << "\n";
+		currow--;
+	}
 }
