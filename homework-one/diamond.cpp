@@ -1,16 +1,19 @@
 #include <iostream>
 
-void diamond()
+void main()
 {
 	int rows=0;
 	std::cout << "Enter a number for the diamond\n";
 	std::cin >> rows;
+	
 	if (rows <= 0)
 	{
 		std::cout << "Invalid input";
 		exit(0);
 	}
+	
 	int currow = 1;
+	
 	while (currow <= rows)
 	{
 		for (int i = currow; i < rows; i++)
@@ -28,7 +31,9 @@ void diamond()
 		std::cout << "\n";
 		currow++;
 	}
+	
 	currow-=2;
+	
 	while (currow>0)
 	{
 		for (int i = currow; i < rows; i++)

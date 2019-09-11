@@ -1,10 +1,10 @@
 #include<iostream>
 
-void nums();
-void box();
-void altbox();
+void nums();	//Prints the numbers 1 to 20, using a while-loop
+void box();		//Prints a 60 × 10 box made of asterisks, using nested while-loops
+void altbox();	//prints a 60 × 10 box made of alternatin asterisks & pipes, using nested while-loops
 
-void main()
+void main()		//calls the other functions
 {
 	nums();
 	box();
@@ -16,7 +16,7 @@ void nums()
 	int i = 1;
 	while (i <= 20)
 	{
-		std::cout << i<<"\n";
+		std::cout << i <<"\n";
 		i++;
 	}
 }
