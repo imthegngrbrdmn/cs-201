@@ -1,15 +1,54 @@
 #include <iostream>
-int main()
+
+void diamond()//main()
 {
-	int rows;
-	std::cin>>rows;
-	int columns = 2 * rows - 1;
-	for (int i = 0; i < rows; i++)
+	int rows=0;
+	std::cout << "Enter a number for the diamond\n";
+	std::cin >> rows;
+	
+	if (rows <= 0)
 	{
-		for (int j = 0; j < columns; j++)
-		{
-			std::cout<<"0";
-		}
+		std::cout << "Invalid input";
+		exit(0);
 	}
-	return 0;
+	
+	int currow = 1;
+	
+	while (currow <= rows)
+	{
+		for (int i = currow; i < rows; i++)
+		{
+			std::cout << " ";
+		}
+		for (int i = 1; i < 2*currow; i++)
+		{
+			std::cout << "#";
+		}
+		for (int i = currow; i < rows; i++)
+		{
+			std::cout << " ";
+		}
+		std::cout << "\n";
+		currow++;
+	}
+	
+	currow-=2;
+	
+	while (currow>0)
+	{
+		for (int i = currow; i < rows; i++)
+		{
+			std::cout << " ";
+		}
+		for (int i = 1; i < 2 * currow; i++)
+		{
+			std::cout << "#";
+		}
+		for (int i = currow; i < rows; i++)
+		{
+			std::cout << " ";
+		}
+		std::cout << "\n";
+		currow--;
+	}
 }
