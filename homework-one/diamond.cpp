@@ -1,6 +1,6 @@
 #include <iostream>
 
-void main()
+void diamond()//main()
 {
 	int rows=0;
 	std::cout << "Enter a number for the diamond\n";
