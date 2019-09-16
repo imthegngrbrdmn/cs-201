@@ -1,6 +1,6 @@
 #include<iostream>
 
-void main() 
+void mileskm() 
 {
 	float miles;
 	std::cout << "Please enter the number of miles you would like to convert to kilometers. ";

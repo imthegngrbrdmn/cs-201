@@ -1,3 +1,5 @@
-﻿  mileskm.cpp
-C:\Users\milla\cs-201\homework-one\mileskm.cpp(4,1): warning C4326:  return type of 'main' should be 'int' instead of 'void'
+﻿  diamond.cpp
+  greatest.cpp
+  Generating Code...
+C:\Users\milla\cs-201\homework-one\diamond.cpp(4,1): warning C4326:  return type of 'main' should be 'int' instead of 'void'
   homework-one.vcxproj -> C:\Users\milla\cs-201\homework-one\Debug\homework-one.exe
