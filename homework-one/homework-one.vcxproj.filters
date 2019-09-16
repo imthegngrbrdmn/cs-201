@@ -21,5 +21,8 @@
     <ClCompile Include="greatest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mileskm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
