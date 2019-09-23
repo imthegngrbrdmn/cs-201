@@ -1,2 +1,4 @@
-﻿  names.cpp
-  homework-02.vcxproj -> D:\Users\maarnold7\source\repos\imthegngrbrdmn\cs-201\homework-02\Debug\homework-02.exe
+﻿  money.cpp
+C:\Users\milla\cs-201\homework-02\money.cpp(19,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\milla\cs-201\homework-02\money.cpp(31,20): warning C4018:  '<': signed/unsigned mismatch
+  homework-02.vcxproj -> C:\Users\milla\cs-201\homework-02\Debug\homework-02.exe
