@@ -6,10 +6,11 @@ double retMoney(std::vector<int> coinQuant);
 const std::vector <std::string> coinTypes = {"Pennies", "Nickles", "Dimes", "Quarters", "Loonies"};
 const std::vector <double> coinVals = { 0.01,0.05,0.1,0.25,1 };
 
-int main(int argc, char** argv)
+int money()
 {
 	std::vector<int> coinQuant=getCoins();
 	std::cout << "The value of all your coins is $" << retMoney(coinQuant) << "\n";
+	return 0;
 }
 
 std::vector<int> getCoins()
