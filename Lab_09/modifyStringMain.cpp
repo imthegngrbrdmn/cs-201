@@ -2,9 +2,13 @@
 #include <string>
 #include <iostream>
 
-main(int argc, char** argv)
+int main(int argc, char** argv)
 {
-	int stringInMain = "Hello";
-	std::cout << "length: " << modifyString(stringInMain, 0) << std::endl;
-	std::cout << "stringInMain: " << stringInMain << std::endl;
+	std::string stringInMain = "Hello";
+	for (int i = 0; i < 0x20; i++) 
+	{
+		std::cout << "length: " << modifyString(stringInMain, i) << std::endl;
+		std::cout << "stringInMain: " << stringInMain << std::endl;
+	}
+	return 0;
 }

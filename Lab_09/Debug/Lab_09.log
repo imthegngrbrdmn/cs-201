@@ -1,5 +1,2 @@
-﻿  modifyStringMain.cpp
-D:\Users\maarnold7\source\repos\imthegngrbrdmn\cs-201\Lab_09\modifyStringMain.cpp(6,1): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Users\maarnold7\source\repos\imthegngrbrdmn\cs-201\Lab_09\modifyStringMain.cpp(7,28): error C2440:  'initializing': cannot convert from 'const char [6]' to 'int'
-D:\Users\maarnold7\source\repos\imthegngrbrdmn\cs-201\Lab_09\modifyStringMain.cpp(7,19): message :  There is no context in which this conversion is possible
-D:\Users\maarnold7\source\repos\imthegngrbrdmn\cs-201\Lab_09\modifyStringMain.cpp(8,57): error C2664:  'int modifyString(std::string &,int)': cannot convert argument 1 from 'int' to 'std::string &'
+﻿  modifyString.cpp
+  Lab_09.vcxproj -> C:\Users\milla\cs-201\Lab_09\Debug\Lab_09.exe
