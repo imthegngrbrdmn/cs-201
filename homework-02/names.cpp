@@ -13,12 +13,12 @@ int main(int argc, char** argv)
 	std::vector<std::string> names;
 	
 	InputNames(names);
-	std::cout << "Please enter a name to find: ";
+	std::cout << "\nPlease enter a name to find: ";
 	std::cin >> nameToFind;
 	std::cout << "Name is in list: " << DoesNameExist(nameToFind, names)<<"\n";
-	std::cout << "Printing names: \n";
+	std::cout << "\nPrinting names: \n";
 	PrintNames(names);
-	std::cout << "Printing names with the first half at the end: \n";
+	std::cout << "\nPrinting names with the first half at the end: \n";
 	ZanyNames(names);
 	return 0;
 }
@@ -37,7 +37,7 @@ bool DoesNameExist(const std::string& nameToFind, const std::vector<std::string>
 
 void InputNames(std::vector<std::string>& names)
 {
-	for (int i = 0; i < 4/*10*/; i++)//using 4 for testing
+	for (int i = 0; i < 10; i++)
 	{
 		std::string name;
 		std::cout << "Please enter a name: ";
