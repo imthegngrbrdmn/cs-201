@@ -7,7 +7,7 @@ void InputNames(std::vector<std::string>& names);
 void PrintNames(const std::vector<std::string>& names);
 void ZanyNames(const std::vector<std::string>& names);
 
-int blah/*main*/(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	std::string nameToFind;
 	std::vector<std::string> names;

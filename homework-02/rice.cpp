@@ -1,6 +1,6 @@
 #include<iostream>
 #include<iomanip>
-int main(int argc, char** argv)
+int rice()
 {
 	unsigned long long grains = 1;
 	for (int i = 1; i <= 64; i++)
