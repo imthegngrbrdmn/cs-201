@@ -1,2 +1,5 @@
 ﻿  names.cpp
-  homework-02.vcxproj -> D:\Users\maarnold7\source\repos\imthegngrbrdmn\cs-201\homework-02\Debug\homework-02.exe
+  rice.cpp
+  Generating Code...
+C:\Users\milla\cs-201\homework-02\rice.cpp(14,9): warning C4244:  'return': conversion from 'unsigned __int64' to 'int', possible loss of data
+  homework-02.vcxproj -> C:\Users\milla\cs-201\homework-02\Debug\homework-02.exe
