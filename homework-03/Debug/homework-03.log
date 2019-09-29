@@ -1,5 +1,2 @@
-﻿  boxer.cpp
-C:\Users\milla\cs-201\homework-03\boxer.cpp(14,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\milla\cs-201\homework-03\boxer.cpp(23,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\milla\cs-201\homework-03\boxer.cpp(39,21): warning C4018:  '<': signed/unsigned mismatch
+﻿  boxprint.cpp
   homework-03.vcxproj -> C:\Users\milla\cs-201\homework-03\Debug\homework-03.exe
