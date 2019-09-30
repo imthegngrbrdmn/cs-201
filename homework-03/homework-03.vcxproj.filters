@@ -26,5 +26,8 @@
     <ClCompile Include="boxprint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="collatz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
