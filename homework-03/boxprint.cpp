@@ -2,7 +2,7 @@
 #include <string>
 #include "boxer.h"
 
-int main()
+int box()//main()
 {
 	std::string message;
 	int layers;
