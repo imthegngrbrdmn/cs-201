@@ -123,6 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="vector_manip.cpp" />
+    <ClCompile Include="vector_manip_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector_manip.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
