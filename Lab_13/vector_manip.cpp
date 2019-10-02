@@ -4,6 +4,6 @@ void firstLetterChange(std::vector<std::string>& strVec, const char& c)
 {
 	for (std::string& str : strVec)
 	{
-
+		str.front() = c;
 	}
 }

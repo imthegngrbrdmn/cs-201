@@ -34,9 +34,13 @@ int main() {
 
 	//TODO ADDITIONAL 1 Create this function in vector_manip.cpp
 	char ch = 'x';
-	//	firstLetterChange(words, ch);
+		firstLetterChange(words, ch);
 
 		//TODO print strings that had their first letter changed in vector
+		for (std::string& str : words)
+		{
+			std::cout << str << " ";
+		}
 
 	std::cout << std::endl;
 	std::cout << "-------------------Additional 2----------------------"
