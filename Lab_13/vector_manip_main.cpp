@@ -11,7 +11,8 @@
 
 #include <iostream>
 #include <vector>
-
+#include <string>
+#include <iostream>
 #include "vector_manip.hpp"
 
 int main() {
@@ -19,9 +20,13 @@ int main() {
 	std::cout << "-------------------Required--------------------------"
 		<< std::endl;
 	//TODO Declare a vector of strings named "words"
-
+	std::vector<std::string> words = { "Hello","Goodbye","Wazzup?" };
 	//TODO REQUIRED Print original words with a range-based for loop.
 	//     Access each string by-reference and make it constant.
+	for (std::string &str : words)
+	{
+		std::cout << str << " ";
+	}
 
 	std::cout << std::endl;
 	std::cout << "-------------------Additional 1----------------------"

@@ -27,7 +27,7 @@
  * @param strVec vector of strings to change
  * @param c new first letter character.
  */
-//void firstLetterChange(std::vector<std::string> & strVec, const char & c);
+void firstLetterChange(std::vector<std::string> & strVec, const char & c);
 
 /**
  * ADDITIONAL 2
