@@ -8,9 +8,10 @@ void modStr(std::string str)
 }
 void modStrBoth(std::string str)
 {
-	
-	for (int i = 0; i < (int) str.length()/2; i++)
+	std::string spaceStr(" ", str.length());
+	for (int i = 0; i <= (int) str.length()/2; i++)
 	{
+		std::cout << spaceStr.substr(0, i);
 		std::cout << str.substr(i, str.length()-2*i) << "\n";
 	}
 }
