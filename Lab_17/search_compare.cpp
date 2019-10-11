@@ -123,7 +123,15 @@ int main() {
 		cout << "Creating dataset ..." << endl;
 		// TODO CREATE DATASET HERE!!! *****************************
 
+		std::vector<int> keys;
+		std::vector<int> values;
+		int res;
+		for (int i = 0; i < size; i++)
+		{
+			keys.push_back(i);
+			values.push_back(rand());
 
+		}
 		// *********************************************************
 		cout << "Dataset created" << endl;
 
@@ -138,7 +146,7 @@ int main() {
 
 		// Do searches
 		// TODO BINARY SEARCH HERE!!! ******************************
-
+		binarySearch(keys, values, 20, res);
 
 		// *********************************************************
 		timer = clock() - timer;
