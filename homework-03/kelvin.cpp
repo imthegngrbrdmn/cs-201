@@ -8,7 +8,7 @@ double ctok(double c)
 	return k;				//return int;
 }
 
-int main()
+int ctokMain()
 {
 	double c = 0;
 	std::cout << "Enter a value in C: "; //doesn't ask for input
