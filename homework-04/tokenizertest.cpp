@@ -1,14 +1,9 @@
 #include "tokenizer.h"
-int main()
+int thing()//main()
 {
-	while(true)
-	{
-		std::string str;
-		if(!ReadLine(str))
-		{
-			std::cout<<"Invalid Input";
-			return 0;
-		}
-		
-	}
+	std::vector<std::string> tokens;
+	std::cout << "Enter text ";
+	StringToTokenWS(tokens);
+	std::cout << tokens[1]<<"|";
+	return 0;
 }

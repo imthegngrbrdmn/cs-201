@@ -125,6 +125,12 @@
   <ItemGroup>
     <ClInclude Include="tokenizer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bulls-and-cows.cpp" />
+    <ClCompile Include="fifo-lifo.cpp" />
+    <ClCompile Include="tokenizer.cpp" />
+    <ClCompile Include="tokenizertest.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
