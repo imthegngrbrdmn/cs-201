@@ -1,5 +1,5 @@
 #include "tokenizer.h"
-int thing()//main()
+int main()
 {
 	std::vector<std::string> tokens;
 	std::cout << "Enter text ";
