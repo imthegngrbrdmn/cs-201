@@ -1,0 +1,3 @@
+﻿  vectorMods.cpp
+  D:\Users\maarnold7\source\repos\imthegngrbrdmn\Lab_24\vectorMods.cpp(35) : error C4716: 'initData': must return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): error MSB6006: "CL.exe" exited with code 2.
