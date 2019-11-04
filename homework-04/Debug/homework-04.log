@@ -1,3 +1,2 @@
-﻿  fifo-lifo.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\milla\cs-201\homework-04\Debug\homework-04.exe : fatal error LNK1120: 1 unresolved externals
+﻿  tokenizertest.cpp
+  homework-04.vcxproj -> C:\Users\milla\cs-201\homework-04\Debug\homework-04.exe

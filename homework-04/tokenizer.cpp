@@ -30,9 +30,21 @@ unsigned StringToTokenWS(std::vector<std::string>& tokens)
 void AnalyseTokens(const std::vector<std::string>& tokens)
 {
 	std::vector<std::string>types = { "[integer]","[identifier]","[string]","[whitespace]","[unknown]" };
-
+	int first = 6;
+	int curr = 6;
+	int i = 0;
 	for (std::string token : tokens)
 	{
-		
+		if (token[0] <= '9' && token[0] >= '0')
+		{
+			for (char c : token)
+			{
+				if (c >= '9' || c <= '0')
+				{
+					std::cout << types[5];
+				}
+			}
+		}
+		i++;
 	}
 }
