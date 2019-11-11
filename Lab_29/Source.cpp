@@ -153,7 +153,8 @@ bool writeFile(const string& filename) {
 
 // Main program
 // Call writeFile, then readFile, printing appropriate error messsages.
-int main(int argc, char** argv) {  // added "src/" to filename for Eclipse IDE.
+int main(int argc, char** argv) 
+{  // added "src/" to filename for Eclipse IDE.
 	const string fname = "data_2019.txt";  // File to write & read
 
 	// Write
