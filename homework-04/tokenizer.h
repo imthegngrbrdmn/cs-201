@@ -2,11 +2,15 @@
 #include <string>
 #include <iostream>
 #include <vector>
+<<<<<<< HEAD
 
 /**
 Uses std::getline() to get a line of text from the user. 
 Returns true if it read the string & false if the string was a blank line.
 */
+=======
+#include <sstream>
+>>>>>>> f612f460c5492f7cbcf665f75906124d4db6c742
 bool ReadLine(std::string& str);
 
 /**
