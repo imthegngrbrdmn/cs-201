@@ -1,0 +1,4 @@
+﻿  random-map.cpp
+C:\Users\milla\cs-201\homework-06\random-map.cpp(63,14): warning C4244:  'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\milla\cs-201\homework-06\random-map.cpp(70,21): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+  homework-06.vcxproj -> C:\Users\milla\cs-201\homework-06\homework-06\Debug\homework-06.exe
