@@ -1,5 +1,5 @@
 #include "shopping.h"
-int main()
+int shopping()
 {
 	std::string action;
 	std::map<std::string, Record> inventory;

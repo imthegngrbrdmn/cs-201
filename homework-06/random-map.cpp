@@ -16,7 +16,7 @@ int RandomBetweenN(int first, int last);
 int RandomBetween(int first, int last);
 void PrintDistribution(std::map<int,int> &numbers);
 
-int ra()//main()
+int main()
 {
 	int min = 1;
 	int max = 7;
