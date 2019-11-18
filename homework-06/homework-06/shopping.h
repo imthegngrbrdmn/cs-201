@@ -11,5 +11,5 @@ struct Record
 	int units;
 };
 void printInventory(std::map<std::string, Record>& inventory);
-void buy(std::string item, std::map<std::string, Record>& inventory, double& total);
-void drop(std::string item, std::map<std::string, Record>& inventory, double& total);
+void buy(std::map<std::string, Record>& inventory, double& total);
+void drop(std::map<std::string, Record>& inventory, double& total);

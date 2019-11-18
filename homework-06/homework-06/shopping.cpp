@@ -21,10 +21,7 @@ int shopping()
 		} 
 		else if (action == "buy")
 		{
-			std::cout<<"What would you like to buy? ";
-			std::string item;
-			getline(std::cin, item);
-			buy(item,inventory,total);
+			buy(inventory, total);
 		}
 		else if (action == "leave")
 		{
@@ -32,10 +29,7 @@ int shopping()
 		}
 		else if (action == "remove item")
 		{
-			std::cout << "What would you like to remove? ";
-			std::string item;
-			getline(std::cin, item);
-			drop(item, inventory, total);
+			drop(inventory, total);
 		}
 		std::cout << "Current total is " << total<<"\n";
 	}
@@ -48,8 +42,11 @@ void printInventory(std::map<std::string, Record>& inventory)
 		std::cout << "We have " << item.second.units << " " << item.first << "s for the low price of " << item.second.unitPrice << "\n";
 	}
 }
-void buy(std::string item, std::map<std::string, Record>& inventory, double& total)
+void buy(std::map<std::string, Record>& inventory, double& total)
 {
+	std::cout << "What would you like to buy? ";
+	std::string item;
+	getline(std::cin, item);
 	if (inventory[item].units > 0)
 	{
 		inventory[item].units -= 1;
@@ -60,8 +57,11 @@ void buy(std::string item, std::map<std::string, Record>& inventory, double& tot
 		std::cout << "We don't have more of that.";
 	}
 }
-void drop(std::string item, std::map<std::string, Record>& inventory, double& total)
+void drop(std::map<std::string, Record>& inventory, double& total)
 {
+	std::cout << "What would you like to remove? ";
+	std::string item;
+	getline(std::cin, item);
 	inventory[item].units += 1;
 	total -= inventory[item].unitPrice;
 }
