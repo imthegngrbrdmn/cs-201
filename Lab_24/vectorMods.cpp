@@ -30,6 +30,6 @@ std::vector<int> initData(int len)
 	std::vector<int> rets;
 	for (int i = 0; i < len; i++)
 	{
-		rets.push_back((i+99)*12 % 100);
+		rets.push_back(i);
 	}
 }
