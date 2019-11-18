@@ -1,9 +1,14 @@
+/*
+Millard Arnold V
+CS-201
+November 17th, 2019
+Homework 06, creates a histogram of different random number generators & prints them.
+*/
 #include <iostream>
 #include <iomanip>
 #include <string>
 #include <map>
 #include <random>
-#include <cmath>
 #include <stdlib.h>
 
 int RandomBetweenU(int first, int last);
@@ -11,7 +16,7 @@ int RandomBetweenN(int first, int last);
 int RandomBetween(int first, int last);
 void PrintDistribution(std::map<int,int> &numbers);
 
-int main()
+int ra()//main()
 {
 	int min = 1;
 	int max = 7;
@@ -42,6 +47,7 @@ int main()
 		std::cout << std::fixed << std::setprecision(1) << std::setw(2)
 			<< p.first << ' ' << std::string(p.second / 200, '*') << '\n';
 	}
+	return 0;
 }
 
 /*
