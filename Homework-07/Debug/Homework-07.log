@@ -1,0 +1,3 @@
+﻿  Color3.cpp
+C:\Users\milla\cs-201\Homework-07\Color3.cpp(28,8): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+  Homework-07.vcxproj -> C:\Users\milla\cs-201\Homework-07\Debug\Homework-07.exe
